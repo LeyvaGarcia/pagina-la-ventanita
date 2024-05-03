@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA VENTANITA</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>    
+       button{color: rgb(31, 255, 6);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>"LA VENTANITA"</h1>
+          <img src="su ruta como cualquier otra imagen lo no borrar el .png" alt="Descripción del logo">
+        
+    </header>
+    
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <img src="C:\galletas.jpg  " alt="Producto 1" style ="width: 200px; height: auto;">
+                <h2>GALLETAS</h2>
+                <p>Producto con dos cubiertas de galeta y en medio chocolate,vainilla,etc</p>
+                <p>Precio: $18</p>
+                <button onclick= "agregarAlCarrito('GALLETAS','numeros1',18)">Agregar al carrito</button>
+                <button onclick="mostrarSeleccion('seleccion 1')">Seleccione la cantidad del producto</button>
+
+                <div id="seleccion 1" style="display: none;">
+              <label for="numeros1">Seleccione la cantidad del producto:</label>
+              <select id="numeros1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+                </div>
+                
+            </div>
+
+            
+            
+            <div class="producto2">
+                <img src="C:\refrescos.png " alt="Producto 2" style ="width: 200px; height: auto;">
+                <h2>REFRESCO</h2>
+                <p>Bebida de agua carbonatada con azucares añadidas y sabores </p>
+                <p>Precio: $31</p>
+                <button onclick= "agregarAlCarrito('Refresco','numeros2',31)">Agregar al carrito</button>
+                <button onclick="mostrarSeleccion('seleccion2')">Seleccione la cantidad del producto</button>
+
+                <div id="seleccion2" style="display: none;">
+              <label for="numeros2">Seleccione la cantidad del producto:</label>
+              <select id="numeros2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+                </div>
+
+            </div>
+
+                <div class="producto3">
+                    <img src="C:\images.jpg" alt="Producto 3">
+                    <h2>Yoghurt</h2>
+                    <p>Producto lacteo de sabor natural</p>
+                    <p>Precio: $18</p>
+                    <button onclick= "agregarAlCarrito('yoghurt','numeros3',18)">Agregar al carrito</button>
+                    <button onclick="mostrarSeleccion('seleccion 3')">Seleccione la cantidad del producto</button>
+
+                    <div id="seleccion 3" style="display: none;">
+                  <label for="numeros3">Seleccione la cantidad del producto:</label>
+                  <select id="numeros3">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                  </select>
+                    </div>
+                </div>
+
+                    <div class="producto4">
+                        <img src="C:\cerveza.avif" alt="Producto 4" style ="width: 200px; height: auto;">
+                        <h2>Cerveza</h2>
+                        <p>Bebida a  base de agave </p>
+                        <p>Precio: $50</p>
+                        <button onclick= "agregarAlCarrito('Cerveza','numeros4',50)">Agregar al carrito</button>
+                        <button onclick="mostrarSeleccion('seleccion 4')">Seleccione la cantidad del producto</button>
+
+    <div id="seleccion 4" style="display: none;">
+  <label for="numeros4">Seleccione la cantidad del producto:</label>
+  <select id="numeros4">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+  </select>
+    </div>
+                    </div>
+
+                        <div class="producto5">
+                            <img src="C:\papas.jpg" alt="Producto 5">
+                            <h2>papas sabritas</h2>
+                            <p>Papas finamente cortadas fritas en aceite natural</p>
+                            <p>Precio: $18</p>
+                            <button onclick= "agregarAlCarrito('papas_fritas','numeros5',18)">Agregar al carrito</button>
+                            <button onclick="mostrarSeleccion('seleccion 5')">Seleccione la cantidad del producto</button>
+
+                            <div id="seleccion 5" style="display: none;">
+                          <label for="numeros5">Seleccione la cantidad del producto:</label>
+                          <select id="numeros5">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                          </select>
+                            </div>
+
+                              </div>
+        </section>
+    </main>
+    <script>
+        var cantidadCarrito={};
+       function
+       agregarAlCarrito(nombreProducto,selectId,Precio){
+        var cantidadProducto =
+        parseInt(document.getElementById(selectId).value);
+              if
+             (cantidadCarrito[nombreProducto]) {
+
+                cantidadCarrito[nombreProducto] +=
+                cantidadProducto;
+             } else {
+                cantidadCarrito[nombreProducto] = 
+                cantidadProducto;
+             }
+             var mensaje="Producto agregado al carrito: " +
+             nombreProducto;
+             if
+             (cantidadCarrito[nombreProducto] > 1)
+             {
+                mensaje +=
+                "\nCantidad total en el carrito: " +
+                cantidadCarrito[nombreProducto];
+             }
+             mensaje += "\nTotal a pagar :$" +
+             (cantidadCarrito[nombreProducto] * Precio).toFixed(2);
+              
+               alert(mensaje);
+             
+        document.getElementById(selectId).selectedIndex = 0;
+       }
+
+        function mostrarSeleccion(id)
+         {
+            var seleccion = 
+            document.getElementById(id);
+           seleccion.style.display = "block";
+           }
+
+           function mostrarSeleccion(id) {
+    var seleccion = document.getElementById(id);
+    if (seleccion.style.display === "none") {
+        seleccion.style.display = "block";
+    } else {
+        seleccion.style.display = "none";
+    }
+}
+
+    </script>
+    <footer>
+        <p>&copy; 2024 LA VENTANITA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
